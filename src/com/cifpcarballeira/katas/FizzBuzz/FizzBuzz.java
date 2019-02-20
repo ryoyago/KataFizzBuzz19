@@ -13,8 +13,11 @@ public class FizzBuzz {
 
     public String getFizzBuzz(int i) {
         
-        if (i%3==0 && i%5==0) 
+        String  s= i+"";
+        if ((i%3==0 || s.contains(""+3)) && (i%5==0 || s.contains(""+5)) ) 
             return "FizzBuzz";
+               
+        
         if (i%3==0) 
             return "Fizz";
         if (i%5==0) 
