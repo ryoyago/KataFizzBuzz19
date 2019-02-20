@@ -22,6 +22,7 @@ public class FizzBuzz {
         if (i%5==0 || s.contains(""+5))
             return "Buzz";
         
+        
         return s;      
        
     }
